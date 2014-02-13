@@ -1,0 +1,132 @@
+{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd} {1 {vcom -nostats -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_8bit
+-- Compiling architecture behavior of adder_8bit
+
+} {} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd}} {1 {vcom -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\test_bench.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+Start time: 05:27:15 on Feb 13,2014
+vcom -reportprogress 300 -work work -2002 -explicit F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\test_bench.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_bench
+-- Compiling architecture behavior of test_bench
+End time: 05:27:16 on Feb 13,2014
+Errors: 0, Warnings: 0
+
+} {} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd} {1 {vcom -nostats -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\test_bench.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_bench
+-- Compiling architecture behavior of test_bench
+
+} {} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd} {1 {vcom -nostats -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\1bit_adder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_1bit
+-- Compiling architecture behavior of adder_1bit
+
+} {} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd}} {0 {vcom -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\1bit_adder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+Start time: 05:27:17 on Feb 13,2014
+vcom -reportprogress 300 -work work -2002 -explicit F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\1bit_adder.vhd 
+** Warning: (vcom-7) Failed to open lock file "F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/work/_lock" in create mode.
+
+Permission denied. (errno = EACCES)
+-- Cannot create lockfile "F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/work/_lock".
+** Error: VHDL Compiler exiting
+Errors: 1, Warnings: 1
+
+} {9.0 10.0} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/comparator.vhd} {1 {vcom -nostats -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\comparator.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator
+-- Compiling architecture behavior of comparator
+
+} {} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd} {0 {vcom -nostats -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity gcd
+** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(13): near ":": expecting STRING or IDENTIFIER or << or '('
+
+} {7.0 8.0} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd}} {0 {vcom -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+Start time: 05:27:17 on Feb 13,2014
+vcom -reportprogress 300 -work work -2002 -explicit F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd 
+** Warning: (vcom-7) Failed to open lock file "F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/work/_lock" in create mode.
+
+Permission denied. (errno = EACCES)
+-- Cannot create lockfile "F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/work/_lock".
+** Error: VHDL Compiler exiting
+Errors: 1, Warnings: 1
+
+} {9.0 10.0} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd}} {0 {vcom -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+Start time: 05:27:17 on Feb 13,2014
+vcom -reportprogress 300 -work work -2002 -explicit F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_8bit
+-- Compiling architecture behavior of adder_8bit
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd(38): Cannot assign to object "sum" of mode IN.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd(40): Cannot assign to object "sum" of mode IN.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd(42): Cannot assign to object "sum" of mode IN.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd(44): Cannot assign to object "sum" of mode IN.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd(46): Cannot assign to object "sum" of mode IN.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd(48): Cannot assign to object "sum" of mode IN.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd(50): Cannot assign to object "sum" of mode IN.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd(52): Cannot assign to object "sum" of mode IN.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\8bit_adder.vhd(55): VHDL Compiler exiting
+Errors: 9, Warnings: 0
+
+} {10.0 19.0} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd} {0 {vcom -nostats -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity twos_complement
+-- Compiling architecture behaviour of twos_complement
+** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd(35): (vcom-1436) Actual expression (prefix expression) of formal "a" is not globally static.
+
+** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd(38): VHDL Compiler exiting
+
+} {8.0 9.0 10.0 11.0} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd}} {0 {vcom -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+Start time: 05:27:17 on Feb 13,2014
+vcom -reportprogress 300 -work work -2002 -explicit F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd 
+** Warning: (vcom-7) Failed to open lock file "F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/work/_lock" in create mode.
+
+Permission denied. (errno = EACCES)
+-- Cannot create lockfile "F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/work/_lock".
+** Error: VHDL Compiler exiting
+Errors: 1, Warnings: 1
+
+} {9.0 10.0} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/comparator.vhd}} {0 {vcom -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\comparator.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+Start time: 05:27:17 on Feb 13,2014
+vcom -reportprogress 300 -work work -2002 -explicit F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\comparator.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator
+-- Compiling architecture behavior of comparator
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\comparator.vhd(44): (vcom-1136) Unknown identifier "t".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\comparator.vhd(44): Type error in range expression.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\comparator.vhd(52): VHDL Compiler exiting
+Errors: 3, Warnings: 0
+
+} {10.0 11.0 12.0 14.0} {}}
