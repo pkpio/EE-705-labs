@@ -1,0 +1,21 @@
+v 3
+file . "tb.vhd" "20140202072753.000" "20140201233303.805":
+  entity booth_multiplier at 5( 88) + 0 on 27;
+  architecture booth_arch of booth_multiplier at 11( 182) + 0 on 28;
+file . "booth_gate.vhd" "20140202073225.000" "20140201233252.690":
+  entity dff at 5( 101) + 0 on 11;
+  architecture dff_arch of dff at 16( 367) + 0 on 12;
+  entity add_1_bit at 26( 627) + 0 on 13;
+  architecture adder_1_arch of add_1_bit at 33( 736) + 0 on 14;
+  entity adder_8 at 39( 988) + 0 on 15;
+  architecture adder_8_arch of adder_8 at 47( 1138) + 0 on 16;
+  entity complement at 75( 2253) + 0 on 17;
+  architecture comp_arch of complement at 81( 2377) + 0 on 18;
+  entity adder_17 at 97( 2847) + 0 on 19;
+  architecture adder_17_arch of adder_17 at 105( 3010) + 0 on 20;
+  entity mux4_1 at 129( 3795) + 0 on 21;
+  architecture multiplexer4_1_arc of mux4_1 at 137( 3993) + 1 on 22;
+  entity mux2_1 at 152( 4429) + 0 on 23;
+  architecture multiplexer2_1_arc of mux2_1 at 160( 4606) + 1 on 24;
+  entity booth_gate at 174( 4942) + 0 on 25;
+  architecture booth_arch_rtl of booth_gate at 183( 5136) + 0 on 26;
