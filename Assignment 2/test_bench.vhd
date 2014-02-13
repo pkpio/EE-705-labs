@@ -10,22 +10,22 @@ end test_bench;
 
 architecture behavior of test_bench is
 
-	component dff
+	component gcd
 		port(	
-		  	d: in bit;
-			clk: in bit;
-			en: in bit;
-			q: out bit
+		  	a: in bit_vector(7 downto 0);
+			b: in bit_vector(7 downto 0);
+			gcd_val: out bit_vector(7 downto 0)
 		);
-	end component;
+	end component gcd;
 
-	signal d: bit:='1';
-	signal q: bit;
+	signal a: bit_vector(7 downto 0):="10101010";
+	signal b: bit_vector(7 downto 0):="00001111";
+	signal gcd_val: bit_vector(7 downto 0);
 	signal en, clk: bit;
 
 	begin
-	  dff1: dff
-		port map (d, clk, en, q);
+	  gcd1: gcd
+		port map (a, b, gcd_val);
 		
 
 	process

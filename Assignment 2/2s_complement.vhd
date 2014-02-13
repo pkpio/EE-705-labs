@@ -28,11 +28,12 @@ architecture behaviour of twos_complement is
 
 	--internal signals
 	signal carry: bit;
-	signal test: bit_vector(7 downto 0);
+	signal not_i: bit_vector(7 downto 0);
+	signal temp_o: bit_vector(7 downto 0);
 
 	--2's complement(number) = not(numvber) + 1;
 	begin
-		adder: adder_8bit port map (not i, "00000001", '0', test, carry);
-	o <= test;
-
+		not_i <= not i;
+		adder: adder_8bit port map (not_i, "00000001", '0', temp_o, carry);
+		o <= temp_o;
 end behaviour;
