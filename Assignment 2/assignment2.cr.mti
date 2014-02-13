@@ -53,48 +53,15 @@ Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2
 -- Compiling entity comparator
 -- Compiling architecture behavior of comparator
 
-} {} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd} {0 {vcom -nostats -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd}
+} {} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd} {1 {vcom -nostats -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity gcd
 -- Compiling architecture behavior of gcd
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(89): Integer literal 0 is not of type std.STANDARD.BIT.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(107): Illegal concurrent statement.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(108): Type error resolving infix expression "=" as type std.STANDARD.BIT_VECTOR.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(108): near "?": expecting ';'
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(109): Type error resolving infix expression "=" as type std.STANDARD.BIT_VECTOR.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(109): near "?": expecting ';'
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(110): Integer literal 1 is not of type std.STANDARD.BIT.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(111): Integer literal 0 is not of type std.STANDARD.BIT.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(131): Illegal concurrent statement.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(140): Illegal concurrent statement.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(142): Integer literal 1 is not of type std.STANDARD.BIT.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(145): Illegal concurrent statement.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(147): Integer literal 1 is not of type std.STANDARD.BIT.
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(15): Nonresolved signal 'gcd_val' has multiple sources.
-  Drivers:
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(141):Conditional signal assignment line__141
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(146):Conditional signal assignment line__146
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(60): Nonresolved signal 'opA' has multiple sources.
-  Drivers:
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(108):Conditional signal assignment line__108
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(132):Conditional signal assignment line__132
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(135):Conditional signal assignment line__135
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(61): Nonresolved signal 'opB' has multiple sources.
-  Drivers:
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(109):Conditional signal assignment line__109
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(133):Conditional signal assignment line__133
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(136):Conditional signal assignment line__136
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(89): Nonresolved signal 'output_done' has multiple sources.
-  Drivers:
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(111):Conditional signal assignment line__111
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(142):Conditional signal assignment line__142
-    F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(147):Conditional signal assignment line__147
-** Error: F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd(150): VHDL Compiler exiting
 
-} {8.0 22.0 25.0 26.0 30.0 31.0 35.0 36.0 40.0 41.0} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd}} {0 {vcom -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd}
+} {} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd}} {0 {vcom -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
 Start time: 05:27:17 on Feb 13,2014
 vcom -reportprogress 300 -work work -2002 -explicit F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd 

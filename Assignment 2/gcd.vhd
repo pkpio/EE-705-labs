@@ -160,6 +160,8 @@ architecture behavior of gcd is
 			gcd_val <= opA;
 			output_done <= '1';
 		end if;
+
+		wait;
 	end process;
 
 end behavior;
