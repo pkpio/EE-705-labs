@@ -23,7 +23,7 @@ module test_bench(
 		input data_clk
 	);
 	reg [7:0] data_in;
-	reg [7:0] data_out;
+	wire [7:0] data_out;
 	
 	// Temporaries
 	reg [8:0] count;

@@ -5,17 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"E:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 5/RunLengthEncoder/FIFO.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">data_out</arg> is not allowed
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"E:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 5/RunLengthEncoder/FIFO.v" Line 30: Redeclaration of ansi port <arg fmt="%s" index="1">empty</arg> is not allowed
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"E:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 5/RunLengthEncoder/RunLengthEncoder.v" Line 28: Redeclaration of ansi port <arg fmt="%s" index="1">data_out</arg> is not allowed
-</msg>
-
-<msg type="warning" file="HDLCompiler" num="329" delta="unknown" >"E:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 5/RunLengthEncoder/test_bench.v" Line 55: Target &lt;<arg fmt="%s" index="1">data_out</arg>&gt; of concurrent assignment or output port connection should be a net type.
-</msg>
-
 </messages>
 

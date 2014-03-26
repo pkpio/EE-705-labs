@@ -22,10 +22,8 @@ module RunLengthEncoder(
 		input fast_clk,
 		input data_clk,
 		input [7:0] data_in,
-		output [7:0] data_out		
+		output reg [7:0] data_out		
     );
-	// Ports
-	reg [7:0] data_out;
 	
 	//FSM states
 	localparam  RESET = 0;
@@ -127,6 +125,7 @@ module RunLengthEncoder(
 			
 	end
 	
+	
 	/********************* FIFO updating block *************************/
 	always @(posedge fast_clk) begin
 		cycle_count_fifo <= cycle_count_fifo + 1;
@@ -180,7 +179,8 @@ module RunLengthEncoder(
 	end
 	
 	FIFO fifo_1(
-		.clk(fast_clk),
+		.fast_clk(fast_clk),
+		.data_clk(data_clk),
 		.reset(reset),
 		.read_en(fifo_read_en),
 		.write_en(fifo_write_en),
