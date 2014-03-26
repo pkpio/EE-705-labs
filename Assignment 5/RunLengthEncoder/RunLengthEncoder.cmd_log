@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 5/RunLengthEncoder/RunLengthEncoder.xst" -ofn "E:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 5/RunLengthEncoder/RunLengthEncoder.syr" 

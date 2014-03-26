@@ -1,0 +1,3 @@
+verilog work "FIFO.v"
+verilog work "RunLengthEncoder.v"
+verilog work "test_bench.v"
