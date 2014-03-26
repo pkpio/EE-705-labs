@@ -2,18 +2,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Author: Praveen Kumar Pendyala 
 // 
-// Create Date:    15:35:17 03/25/2014 
-// Design Name: 
-// Module Name:    test_bench 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// Create Date:    15:35:17 03/25/2014
+// Module Name:    test_bench
 //
-// Dependencies: 
+// Dependencies:
+// RunLengthEncoder.v
 //
-// Revision: 
-// Revision 0.01 - File Created
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
@@ -38,13 +32,15 @@ module test_bench(
 		count <= count + 1;
 		if(count == 0) data_in <= 8'h01;
 		else if(count == 1) data_in <= 8'h01;
-		else if(count == 2) data_in <= 8'h01;
-		else if(count == 3) data_in <= 8'h01;
-		else if(count == 4) data_in <= 8'h01;
-		else if(count == 5) data_in <= 8'hA1;
-		else if(count == 6) data_in <= 8'hC1;
-		else if(count < 270) data_in <= 8'hB1;
-		else if(count == 271) data_in <= 8'hC1;
+		else if(count == 2) data_in <= 8'h1B;
+		else if(count == 3) data_in <= 8'h03;
+		else if(count == 4) data_in <= 8'h04;
+		else if(count == 5) data_in <= 8'h1B;
+		else if(count == 6) data_in <= 8'h1B;
+		else if(count == 7) data_in <= 8'h07;
+		else if(count == 8) data_in <= 8'h08;
+		else if(count < 270) data_in <= 8'hAA;
+		else if(count == 271) data_in <= 8'h55;
 	end
 	
 	RunLengthEncoder rle(

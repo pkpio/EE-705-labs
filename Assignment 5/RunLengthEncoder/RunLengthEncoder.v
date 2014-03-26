@@ -2,19 +2,15 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Author: Praveen Kumar Pendyala 
 // 
-// Create Date:    15:35:17 03/25/2014 
-// Design Name: 
+// Create Date:    15:35:17 03/25/2014
 // Module Name:    RunLengthEncoder 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
 //
-// Dependencies: 
+// Dependencies:
+// FIFO.v
 //
-// Revision: 
-// Revision 0.01 - File Created
 // Additional Comments: 
+// ESC character handling - When ESC occurs in 1 or 2 continuous bytes, we write ESC followed by 1 or 2. Since normally ESC
+// is always followed by number >2 the decoder can take this as the actual ESC character.
 //
 //////////////////////////////////////////////////////////////////////////////////
 module RunLengthEncoder(
@@ -28,6 +24,8 @@ module RunLengthEncoder(
 	//FSM states
 	localparam  RESET = 0;
 	localparam  ENCODING = 1;
+	
+	localparam ESC = 8'h1B;
 	
 	// State variable
 	reg [1:0] currState;
@@ -134,18 +132,18 @@ module RunLengthEncoder(
 		if(write_to_fifo == 1) begin
 		
 			// count: 1
-			if(writeCount == 1) begin
+			if(writeCount == 1 && writeByte != 8'h1B) begin
 				if(cycle_count_fifo == 0) begin
 					fifo_write_en <= 1;
 					fifo_data_in <= writeByte; 	// Write data
 				end
 				else if(cycle_count_fifo == 1) begin
 					fifo_write_en <= 0;		 	// stop writing
-				end
+				end				
 			end
 			
 			// count: 2
-			if(writeCount == 2) begin
+			if(writeCount == 2 && writeByte != 8'h1B) begin
 				if(cycle_count_fifo == 0) begin
 					fifo_write_en <= 1;
 					fifo_data_in <= writeByte;	//write data
@@ -155,11 +153,11 @@ module RunLengthEncoder(
 				end
 				else if(cycle_count_fifo == 2) begin
 					fifo_write_en <= 0;			// stop writing
-				end
+				end				
 			end
 			
 			// count: > 2
-			if(writeCount > 2) begin
+			if(writeCount > 2 || writeByte == 8'h1B) begin
 				if(cycle_count_fifo == 0) begin
 					fifo_write_en <= 1;
 					fifo_data_in <= 8'h1B; 		// write an ESC character

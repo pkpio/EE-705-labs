@@ -2,18 +2,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 // Author: Praveen Kumar Pendyala 
 // 
-// Create Date:    15:35:17 03/25/2014 
-// Design Name: 
-// Module Name:    FIFO 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// Create Date:    15:35:17 03/25/2014
+// Module Name:    FIFO
 //
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
