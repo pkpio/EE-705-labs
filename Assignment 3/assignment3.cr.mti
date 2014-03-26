@@ -1,0 +1,90 @@
+{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 3/lift.vhd} {0 {vcom -nostats -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity lift
+-- Compiling architecture behaviour of controller
+-- Loading entity controller
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(34): (vcom-1136) Unknown identifier "clk".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(34): Expression is not a signal.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(37): (vcom-1136) Unknown identifier "MOTION_RESET".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(38): (vcom-1136) Unknown identifier "clk".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(43): Illegal sequential statement.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(47): (vcom-1136) Unknown identifier "MOTION_RESET".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(47): Choice in CASE statement alternative must be locally static.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(49): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(49): (vcom-1136) Unknown identifier "cur_floor".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(50): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(50): (vcom-1136) Unknown identifier "cur_dir_up".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(51): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(51): (vcom-1136) Unknown identifier "cur_dir_down".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(52): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(52): (vcom-1136) Unknown identifier "cur_dir_halt".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(54): (vcom-1136) Unknown identifier "MOTION_HALT".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(54): Choice in CASE statement alternative must be locally static.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(55): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(55): (vcom-1136) Unknown identifier "cur_floor".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(56): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(56): (vcom-1136) Unknown identifier "cur_dir_up".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(57): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(57): (vcom-1136) Unknown identifier "cur_dir_down".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(58): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(58): (vcom-1136) Unknown identifier "cur_dir_halt".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(60): (vcom-1136) Unknown identifier "MOTION_UP".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(60): Choice in CASE statement alternative must be locally static.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(61): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(61): (vcom-1136) Unknown identifier "cur_floor".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(62): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(62): (vcom-1136) Unknown identifier "cur_dir_up".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(63): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(63): (vcom-1136) Unknown identifier "cur_dir_down".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(64): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(64): (vcom-1136) Unknown identifier "cur_dir_halt".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(67): (vcom-1136) Unknown identifier "MOTION_DOWN".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(67): Choice in CASE statement alternative must be locally static.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(68): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(68): (vcom-1136) Unknown identifier "cur_floor".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(69): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(69): (vcom-1136) Unknown identifier "cur_dir_up".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(70): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(70): (vcom-1136) Unknown identifier "cur_dir_down".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(71): Illegal target for signal assignment.
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(71): (vcom-1136) Unknown identifier "cur_dir_halt".
+
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\lift.vhd(79): near "behaviour": expecting PROCESS
+
+} {9.0 10.0 11.0 13.0 14.0 15.0 16.0 18.0 19.0 22.0 23.0 25.0 26.0 28.0 29.0 31.0 32.0 33.0 34.0 37.0 38.0 40.0 41.0 43.0 44.0 46.0 47.0 48.0 49.0 52.0 53.0 55.0 56.0 58.0 59.0 61.0 62.0 63.0 64.0 67.0 68.0 70.0 71.0 73.0 74.0 76.0 77.0 78.0} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 3/controller.vhd} {0 {vcom -nostats -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\controller.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity controller
+-- Compiling architecture behaviour of controller
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\controller.vhd(34): near "'": syntax error
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\controller.vhd(37): near "'": syntax error
+** Error: F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 3\controller.vhd(47): VHDL Compiler exiting
+
+} {8.0 11.0} {}}

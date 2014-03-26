@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.3/examples
 Eadder_1bit
-Z0 w1392249987
+Z0 w1392305955
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 dF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2
@@ -17,13 +17,13 @@ Z4 8F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vh
 Z5 FF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd
 l0
 L8
-VDU5FEbIg^R2OHZ?WWB4^o3
-!s100 LK=5MgRU4]Q_RPNaBF0oW2
+VLEGl;T5<k8NClGn4ijWUI0
+!s100 8Xdjh2LhjXEzfG92CN<lh1
 Z6 OP;C;10.3;59
 32
-Z7 !s110 1392291020
+Z7 !s110 1392317833
 !i10b 1
-Z8 !s108 1392291020.435000
+Z8 !s108 1392317833.779000
 Z9 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd|
 Z10 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd|
 Z11 o-work work -2002 -explicit -O0
@@ -31,7 +31,7 @@ Z12 tExplicit 1
 Abehavior
 R1
 R2
-DEx4 work 10 adder_1bit 0 22 DU5FEbIg^R2OHZ?WWB4^o3
+DEx4 work 10 adder_1bit 0 22 LEGl;T5<k8NClGn4ijWUI0
 l19
 L18
 V<0:[RF@`::3S9BE2X_fPd0
@@ -45,45 +45,65 @@ R9
 R10
 R11
 R12
+Abehavior_1
+R1
+R2
+DEx4 work 10 adder_1bit 0 22 71Z6[BoD;^l`a_1:WcO]l2
+l19
+L18
+VY:KHZ_C>BPmRe8b88i[kl2
+!s100 N4]K6N?2nDz9beehkKdFB2
+R6
+32
+!s110 1392305608
+!i10b 1
+!s108 1392305608.286000
+Z13 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd|
+Z14 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd|
+R11
+R12
+Z15 FF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd
+w1392305575
+Z16 8F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd
 Eadder_8bit
-Z13 w1392249601
+Z17 w1392306049
 R1
 R2
 R3
-Z14 8F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd
-Z15 FF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd
+R16
+R15
 l0
-L8
-V]mY?V4g@=0WYobR@^`2590
-!s100 <lZnlUcBM@M`Haj]R5YGf1
+L9
+V>FES2MOfhAD8WociXcTRD2
+!s100 e8=Y3_9EkOab`mm@Rd3640
 R6
 32
-Z16 !s110 1392291021
+Z18 !s110 1392317834
 !i10b 1
-Z17 !s108 1392291021.264000
-Z18 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd|
-Z19 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/8bit_adder.vhd|
+Z19 !s108 1392317834.422000
+R13
+R14
 R11
 R12
 Abehavior
 R1
 R2
-DEx4 work 10 adder_8bit 0 22 ]mY?V4g@=0WYobR@^`2590
-l36
-L19
-VSh@U2IW^Oh@;ToUZ>nH7V3
-!s100 I:b`l[>MTS`^3eN6fg6K62
+DEx4 work 10 adder_8bit 0 22 >FES2MOfhAD8WociXcTRD2
+l37
+L20
+V5J1UeaL@SPFMR<lfH4oFn2
+!s100 1X4[HcD`RTQ]kML2[?`V`1
 R6
 32
-R16
-!i10b 1
-R17
 R18
+!i10b 1
 R19
+R13
+R14
 R11
 R12
 Ecomparator
-Z20 w1392249956
+Z20 w1392312307
 R1
 R2
 R3
@@ -95,9 +115,9 @@ V5NfS`WoL7o`ZYE71U_=J20
 !s100 9[<eIKDBRQ[h9bfKFLd6V1
 R6
 32
-Z23 !s110 1392291022
+Z23 !s110 1392317835
 !i10b 1
-Z24 !s108 1392291022.152000
+Z24 !s108 1392317835.032000
 Z25 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/comparator.vhd|
 Z26 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/comparator.vhd|
 R11
@@ -105,11 +125,11 @@ R12
 Abehavior
 R1
 R2
-DEx4 work 10 comparator 0 22 5NfS`WoL7o`ZYE71U_=J20
+Z27 DEx4 work 10 comparator 0 22 5NfS`WoL7o`ZYE71U_=J20
 l47
 L17
-VA>Jdf4L:YaV8Zoa:Wg6HC0
-!s100 Cc:77;liK>D7ocH^YL`Fe3
+Z28 VlcZ?3nUoS_SGaEoAR@J?n3
+Z29 !s100 L5I;HmD8HFa_6FBDXEJdZ3
 R6
 32
 R23
@@ -120,113 +140,113 @@ R26
 R11
 R12
 Egcd
-Z27 w1392290856
+Z30 w1392316842
 R1
 R2
 R3
-Z28 8F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd
-Z29 FF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd
+Z31 8F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd
+Z32 FF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd
 l0
 L11
-VJ6kRM7=P96AoQEg=P]kc03
-!s100 Mmn;f331ES]SWjOVA;Xld2
+Vbh6<9<55gAJ5FX9hCoTLJ1
+!s100 b6[ibF[5OkjeLERPlJ<eg2
 R6
 32
-Z30 !s110 1392291019
+Z33 !s110 1392317832
 !i10b 1
-Z31 !s108 1392291019.134000
-Z32 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd|
-Z33 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd|
+Z34 !s108 1392317832.589000
+Z35 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd|
+Z36 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/gcd.vhd|
 R11
 R12
 Abehavior
 R1
 R2
-DEx4 work 3 gcd 0 22 J6kRM7=P96AoQEg=P]kc03
+DEx4 work 3 gcd 0 22 bh6<9<55gAJ5FX9hCoTLJ1
 l92
-L19
-V]4AQ:I:2TG:^PPLijA=aM2
-!s100 O^F1BG^kA[KS6Z==JS5R@1
+L21
+V>z;zB=<Nh8MGMGe=__QRh0
+!s100 YFm@9k9c?Rb1Aa=[h2fJ<0
 R6
 32
-R30
-!i10b 1
-R31
-R32
 R33
+!i10b 1
+R34
+R35
+R36
 R11
 R12
 Etest_bench
-Z34 w1392291268
+Z37 w1392317333
 R1
 R2
 R3
-Z35 8F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd
-Z36 FF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd
+Z38 8F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd
+Z39 FF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd
 l0
 L8
 VGG;_a^=?PLDElf4^QMVUY1
 !s100 fk40aR^;6U5gjzD^5?2g_0
 R6
 32
-Z37 !s110 1392291277
+Z40 !s110 1392317831
 !i10b 1
-Z38 !s108 1392291277.202000
-Z39 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd|
-Z40 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd|
+Z41 !s108 1392317831.962000
+Z42 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd|
+Z43 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd|
 R11
 R12
 Abehavior
 R1
 R2
 DEx4 work 10 test_bench 0 22 GG;_a^=?PLDElf4^QMVUY1
-l41
+l28
 L11
-V_37Ll<00VMmeFOiJKb8kj1
-!s100 kSkBbKhNoPZMZg>m^@Nj_3
+VDeS8Eke<lB3^Iz3>J00Pg1
+!s100 FO?i]mC4NLP3OziaGnod62
 R6
 32
-R37
-!i10b 1
-R38
-R39
 R40
+!i10b 1
+R41
+R42
+R43
 R11
 R12
 Etwos_complement
-Z41 w1392291341
+Z44 w1392291341
 R1
 R2
 R3
-Z42 8F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd
-Z43 FF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd
+Z45 8F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd
+Z46 FF:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd
 l0
 L8
 VWoWTK1SWeS5;G0><g=[E[1
 !s100 z<C9mbf88<?WE=4=MR]9?0
 R6
 32
-Z44 !s110 1392291355
+R7
 !i10b 1
-Z45 !s108 1392291355.935000
-Z46 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd|
-Z47 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd|
+Z47 !s108 1392317833.188000
+Z48 !s90 -reportprogress|300|-nostats|-work|work|-2002|-explicit|F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd|
+Z49 !s107 F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/2s_complement.vhd|
 R11
 R12
 Abehaviour
 R1
 R2
-Z48 DEx4 work 15 twos_complement 0 22 WoWTK1SWeS5;G0><g=[E[1
+DEx4 work 15 twos_complement 0 22 WoWTK1SWeS5;G0><g=[E[1
 l35
 L15
 VzbiH<SD??^HeCEKjbCOoo1
 !s100 4EI7nE2Z]45_49`bBnj350
 R6
 32
-R44
+R7
 !i10b 1
-R45
-R46
 R47
+R48
+R49
 R11
 R12

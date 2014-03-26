@@ -34,7 +34,7 @@ architecture behavior of comparator is
 			a : in bit_vector(7 downto 0);
 			b : in bit_vector(7 downto 0);
 			cin: in bit;
-			sum : in bit_vector(7 downto 0);
+			sum : out bit_vector(7 downto 0);
 			cout : out bit
 		);
 	end component adder_8bit;

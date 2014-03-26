@@ -10,8 +10,8 @@ entity adder_1bit is
 		a: in bit;
 		b: in bit;
 		cin: in bit;
-		cout: out bit;
-		sum: out bit
+		sum: out bit;
+		cout: out bit
 	);
 end adder_1bit;
 

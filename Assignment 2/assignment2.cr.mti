@@ -14,6 +14,14 @@ Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2
 -- Compiling entity test_bench
 -- Compiling architecture behavior of test_bench
 
+} {} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd} {1 {vcom -nostats -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder_1bit
+-- Compiling architecture behavior of adder_1bit
+
 } {} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/test_bench.vhd}} {1 {vcom -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\test_bench.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
 Start time: 05:27:15 on Feb 13,2014
@@ -25,14 +33,6 @@ vcom -reportprogress 300 -work work -2002 -explicit F:\Dropbox\Works and collect
 -- Compiling architecture behavior of test_bench
 End time: 05:27:16 on Feb 13,2014
 Errors: 0, Warnings: 0
-
-} {} {}} {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd} {1 {vcom -nostats -work work -2002 -explicit {F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd}
-Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity adder_1bit
--- Compiling architecture behavior of adder_1bit
 
 } {} {}} {{F:/Dropbox/Works and collections/Elec/EE-705-labs/Assignment 2/1bit_adder.vhd}} {0 {vcom -work work -2002 -explicit {F:\Dropbox\Works and collections\Elec\EE-705-labs\Assignment 2\1bit_adder.vhd}
 Model Technology ModelSim PE Student Edition vcom 10.3 Compiler 2014.01 Jan  6 2014

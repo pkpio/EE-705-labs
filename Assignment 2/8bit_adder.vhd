@@ -5,6 +5,7 @@
 library ieee;
 use ieee.std_logic_1164.ALL;
 
+
 entity adder_8bit is
 	port(
 		a : in bit_vector(7 downto 0);
@@ -24,8 +25,8 @@ architecture behavior of adder_8bit is
 			a: in bit;
 			b: in bit;
 			cin: in bit;
-			cout: out bit;
-			sum: out bit
+			sum: out bit;
+			cout: out bit
 		);
 	end component adder_1bit;
 
@@ -37,19 +38,19 @@ architecture behavior of adder_8bit is
 		adder_1bit_0: adder_1bit
 			port map(a(0), b(0), cin, sum(0), temp(1));
 		adder_1bit_1: adder_1bit
-			port map(a(1), b(1), cin, sum(1), temp(2));
+			port map(a(1), b(1), temp(1), sum(1), temp(2));
 		adder_1bit_2: adder_1bit
-			port map(a(2), b(2), cin, sum(2), temp(3));
+			port map(a(2), b(2), temp(2), sum(2), temp(3));
 		adder_1bit_3: adder_1bit
-			port map(a(3), b(3), cin, sum(3), temp(4));
+			port map(a(3), b(3), temp(3), sum(3), temp(4));
 		adder_1bit_4: adder_1bit
-			port map(a(4), b(4), cin, sum(4), temp(5));
+			port map(a(4), b(4), temp(4), sum(4), temp(5));
 		adder_1bit_5: adder_1bit
-			port map(a(5), b(5), cin, sum(5), temp(6));
+			port map(a(5), b(5), temp(5), sum(5), temp(6));
 		adder_1bit_6: adder_1bit
-			port map(a(6), b(6), cin, sum(6), temp(7));
+			port map(a(6), b(6), temp(6), sum(6), temp(7));
 		adder_1bit_7: adder_1bit
-			port map(a(7), b(7), cin, sum(7), cout);
+			port map(a(7), b(7), temp(7), sum(7), cout);
 
 
 end behavior;

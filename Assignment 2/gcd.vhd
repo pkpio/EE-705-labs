@@ -12,7 +12,9 @@ entity gcd is
 	port(
 		a: in bit_vector(7 downto 0);
 		b: in bit_vector(7 downto 0);
-		gcd_val: out bit_vector(7 downto 0)
+		gcd_val: out bit_vector(7 downto 0);
+		clk: in bit;
+		en: in bit
 	);
 end gcd;
 
@@ -34,7 +36,7 @@ architecture behavior of gcd is
 			a : in bit_vector(7 downto 0);
 			b : in bit_vector(7 downto 0);
 			cin: in bit;
-			sum : in bit_vector(7 downto 0);
+			sum : out bit_vector(7 downto 0);
 			cout : out bit
 		);
 	end component adder_8bit;
@@ -64,9 +66,6 @@ architecture behavior of gcd is
 	signal comp_opA: bit_vector(7 downto 0);
 	signal comp_opB: bit_vector(7 downto 0);
 
-	--To ensure signals are loaded from port only on forst iteration
-	signal is_loaded_already: bit := '0';
-
 	--Sign status of input operands
 	signal is_pos_a: bit;
 	signal is_pos_b: bit;
@@ -88,6 +87,7 @@ architecture behavior of gcd is
 	--For state about if ouput is computed
 	signal output_done:bit := '0';
 
+	signal gone_once:bit;
 
 	begin
 		
@@ -119,11 +119,11 @@ architecture behavior of gcd is
 	signal_ops_comparator: comparator
 		port map(a_min_b, "00000000", is_opA_greater);
 
-	process
+	process (opA, opB, is_pos_a, is_pos_b, is_opA_greater)
 		begin
 
 		--Load signal operands with inputs or their complements if negative
-		if(is_loaded_already = '0') then
+		if clk'event and clk='1' and en='1' then
 			if(is_pos_a = '1') then
 				opA <= a;
 			else
@@ -136,7 +136,6 @@ architecture behavior of gcd is
 				opB <= comp_b;
 			end if;
 
-			is_loaded_already <= '1';
 			output_done <= '0';
 
 		end if;
@@ -161,7 +160,6 @@ architecture behavior of gcd is
 			output_done <= '1';
 		end if;
 
-		wait;
 	end process;
 
 end behavior;
